@@ -25,8 +25,10 @@ We will also use ImageJ/Fiji to view and perform initial analyses on the images.
 
    
 ## Data location and directory setup 
-The data for this workshop may be found at [this Google Drive link](https://drive.google.com/drive/folders/1WTS2uRp2SF1oLAXB-hFsf0NZ2roBM4HT?usp=share_link)
+The data for this workshop may be found at [this Google Drive link](https://drive.google.com/drive/folders/1Eg1U2uELW5waO2kh3KPWLxaKWlElyaGk?usp=share_link)
 * Please note that the data are unpublished images and should not be shared beyond this workshop without consent
+
+Once the data are downloaded, move both data folders into the Scripts folder to get the path calls right in the scripts. 
    
    
 *Workshop created as part of the McGill Initiative in Computational Medicine*
