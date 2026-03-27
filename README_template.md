@@ -1,29 +1,31 @@
-# Workshop name
+# Image Analysis: studying Cellular Dynamics
 
 ## Overview
-<Add a brief description and objectives of the workshop here>
-   
+This workshop delves into the analysis of scientific images. Namely, we will cover: 
+* How images are acquired, computationally stored, and parsed
+* Analysis of image time-series 
+* Image filtering methods for enhancing signal-to-noise
+* Fitting of physical models to data 
+
+Through the exercises in this workshop, we will apply these concepts to analyze fluorescence microscopy data, studying cellular dynamics. The specific biophysical techniques to be analyzed are:
+* Fluorescence Recovery After Photobleaching (FRAP)
+* Single Particle Tracking (SPT)
+These methods enable the quantification of diffusion of macromolecules within cells, and are commonly used to study phenomena such as protein/nucleic acid binding, cellular fluidity, rheology, etc. We will go over the fundamental biophysics knowledge required to perform the exercises, so no specific prior coursework is required. Self-contained example data of these techniques will be provided, but feel free to bring your own data if you have it!
+
 ## Requirements
-<Add computational/knowledge requirements here>
+The exercises included are written equivalently in both MATLAB and Python. You may choose whichever you prefer, or wish to practice. 
+* If using MATLAB: 
+    * Required toolboxes: Image Processing Toolbox, Signal Processing Toolbox, Statistics and Machine Learning Toolbox 
+* If using Python: 
+    * Scripts are provided in Notebook format
+ 
+We will also use ImageJ/Fiji to view and perform initial analyses on the images. This software may be downloaded for free in a few minutes through the link below. Please ensure you have the Fiji distribution, which contains built-in plugins. We will namely be using the TrackMate plugin. 
+* [Link to download ImageJ/Fiji](https://imagej.net/software/fiji/downloads)
 
-<If a unix terminal is needed, include instructions to download it on windows>
-We will be using the unix terminal to run our analyses. so be sure you have access to one. 
-* Mac OS and any linux distribution will have a terminal already
-    * Mac OS: search for terminal in your spotlight search
-* Windows users: 
-    * Option 1: Download a [unix subsystem (WSL)](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview) **recommended
-    * Option 2: Download [MobaXterm](https://mobaxterm.mobatek.net/)
    
-## Sofware <List of software that will be used during the workshop>
-* [Software1](link to installation instructions)
-* [Software2](link to installation instructions)
-* Instructions to open colab, Rlibraries, etc.
+## Data location and directory setup 
+The data for this workshop may be found at [this Google Drive link](https://drive.google.com/drive/folders/1WTS2uRp2SF1oLAXB-hFsf0NZ2roBM4HT?usp=share_link)
+* Please note that the data are unpublished images and should not be shared beyond this workshop without consent
    
-## Small Outline/Structure (with link to exercises in colab if applicable)
-* topic
-   - exercise - link to colab
-
-## References
-*<Material Author/Adapted from disclaimer>*
    
 *Workshop created as part of the McGill Initiative in Computational Medicine*
