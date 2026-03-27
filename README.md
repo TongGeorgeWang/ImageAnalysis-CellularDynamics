@@ -10,6 +10,7 @@ This workshop delves into the analysis of scientific images. Namely, we will cov
 Through the exercises in this workshop, we will apply these concepts to analyze fluorescence microscopy data, studying cellular dynamics. The specific biophysical techniques to be analyzed are:
 * Fluorescence Recovery After Photobleaching (FRAP)
 * Single Particle Tracking (SPT)
+  
 These methods enable the quantification of diffusion of macromolecules within cells, and are commonly used to study phenomena such as protein/nucleic acid binding, cellular fluidity, rheology, etc. We will go over the fundamental biophysics knowledge required to perform the exercises, so no specific prior coursework is required. Self-contained example data of these techniques will be provided, but feel free to bring your own data if you have it!
 
 ## Requirements
